@@ -70,5 +70,4 @@ npm run lint
 
 ---
 ## 💠 RenderにデプロイされたWebサイト
-* [ステージング環境](https://staging-na20.onrender.com)
 * [本番環境](https://production-vsj6.onrender.com)
