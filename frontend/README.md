@@ -66,7 +66,7 @@ npm run lint
 
 * PR/main push 時にESLint チェックを実行
 * PR 成功時に、ステージング環境へ自動デプロイ
-* ステージングデプロイ後に自動でmain push され、本番環境へデプロイ
+* main push 時に、本番環境へデプロイ
 
 ---
 ## 💠 RenderにデプロイされたWebサイト
