@@ -23,7 +23,7 @@ export default function Introduction() {
             <img src={profile} style={profileImg} alt="profile" />
           </div>
 
-          <div style={name}>白井 香帆</div>
+          <div style={name}>白井 香帆（しらい かほ）</div>
         </div>
 
         {/* 出身地 */}
@@ -70,7 +70,6 @@ export default function Introduction() {
   );
 }
 
-/* ------------------ Styles ------------------ */
 const container = {
   background: "#1e1e1e",
   color: "white",
