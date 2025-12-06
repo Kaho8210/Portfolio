@@ -3,7 +3,7 @@ import "./App.css";
 import Career from "./CareerContents";
 import Contact from "./Contact";
 import Introduction from "./Introduction";
-
+import Academy from "./Academy";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState("introduction");
@@ -42,8 +42,7 @@ export default function App() {
 
         {activeTab === "academy" && (
           <section>
-            <h1>学歴・資格</h1>
-            <p>学歴・資格・学習経験</p>
+            <Academy/>
           </section>
         )}
 
@@ -57,7 +56,6 @@ export default function App() {
   );
 }
 
-// タブ一覧
 const tabs = [
   { id: "introduction", label: "Introduction" },
   { id: "career", label: "Career" },
@@ -65,7 +63,6 @@ const tabs = [
   { id: "contact", label: "Contact" },
 ];
 
-// スタイル
 const headerStyle = {
   display: "flex",
   background: "#333",
