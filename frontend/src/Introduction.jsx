@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import profile from "./pics/profile.jpg";
+import profile from "./pics/profile.png";
 
 export default function Introduction() {
   const [isOpen, setIsOpen] = useState(false);
