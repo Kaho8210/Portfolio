@@ -18,6 +18,7 @@ export default function Academy() {
             <span style={emoji}>🎓</span>
             <p style={detailText}>
                 AR環境で高校物理を動的に学習できる<a href="https://youtu.be/Tt-ewnffNT4" style={{ color: "pink" }}>シミュレータ</a>をUnityで開発した。<br />
+                ユーザが設定した質量や摩擦係数などのパラメータに応じて、傾斜面上を移動するオブジェクトに作用する各方向の力をリアルタイムで計算・可視化する機能を実装した。
                 アルバイトで塾講師、家庭教師をしており、高校物理で躓く生徒が多かったことから着想を得た。
             </p>
           </div>
